@@ -30,6 +30,14 @@ As seen in the book - with the addition of a .gitignore to ignore the generated 
 
 Implementation of code to print out "The 12 Days of Christmas" lyrics. Utilizes const arrays, and for each style loops.
 
+## rectangles
+
+As seen in the book - basic struct and method use/printing.
+
+## structs
+
+As seen in the book - basic syntax of a struct.
+
 ## temperature
 
 Implementation of code to convert from fahrenheit to celsius, and from celsius to fahrenheit.
