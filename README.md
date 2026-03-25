@@ -6,6 +6,10 @@ My progress as I work through *The Rust Programming Language* book.
 
 Essentially as seen in the book, though I do have all three examples in one main.rs file.
 
+## enums
+
+Basic enums based off of 6.1.
+
 ## fibonacci
 
 Implementation of a function that gives the fibonacci number corresponding to the provided index. Implemented simply with recursion.
@@ -26,9 +30,17 @@ As seen in the book - just hello world made with cargo.
 
 As seen in the book - with the addition of a .gitignore to ignore the generated executable named ```main```
 
+## iflet
+
+Same idea as in the book - renamed to not be a duplicate of match_control.
+
 ## lyrics
 
 Implementation of code to print out "The 12 Days of Christmas" lyrics. Utilizes const arrays, and for each style loops.
+
+## match_control
+
+Basic matching based off of 6.2. value_in_cents as a method Coin rather than a function.
 
 ## rectangles
 
