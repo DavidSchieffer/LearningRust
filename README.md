@@ -42,9 +42,17 @@ Implementation of code to print out "The 12 Days of Christmas" lyrics. Utilizes 
 
 Basic matching based off of 6.2. value_in_cents as a method Coin rather than a function.
 
+## modules
+
+Very Basic example of how modules are structured and ```use```d.
+
 ## rectangles
 
 As seen in the book - basic struct and method use/printing.
+
+## restaurant
+
+As seen in the book - basic organization of modules.
 
 ## structs
 
