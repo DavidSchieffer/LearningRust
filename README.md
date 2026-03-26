@@ -2,9 +2,17 @@
 
 My progress as I work through *The Rust Programming Language* book.
 
+## averages
+
+Collects a list of integers from the user, and prints back the median and mode values. 
+
 ## branches
 
 Essentially as seen in the book, though I do have all three examples in one main.rs file.
+
+## company
+
+Implementation of a basic CLI to add people to departments in a company, and to view the corresponding org-chart.
 
 ## enums
 
@@ -21,6 +29,10 @@ Essentially as seen in the book.
 ## guessing_game
 
 As seen in the book, with the addition of consts to determine bounds of the guessing game, as well as utilizing the ```clamp``` function to determine if the guess is valid.
+
+## hash_maps
+
+As seen in the book.
 
 ## hello_cargo
 
@@ -46,6 +58,10 @@ Basic matching based off of 6.2. value_in_cents as a method Coin rather than a f
 
 Very Basic example of how modules are structured and ```use```d.
 
+## pig_latin
+
+Implementation of code to take in a string, and convert each word to pig-latin, keeping whitespace intact.
+
 ## rectangles
 
 As seen in the book - basic struct and method use/printing.
@@ -53,6 +69,10 @@ As seen in the book - basic struct and method use/printing.
 ## restaurant
 
 As seen in the book - basic organization of modules.
+
+## strings
+
+As seen in the book - basic string creation, concatenation, and indexing.
 
 ## structs
 
@@ -65,3 +85,7 @@ Implementation of code to convert from fahrenheit to celsius, and from celsius t
 ## variables
 
 Essentially as seen in the book.
+
+## vectors
+
+Essentially as seen in the book, with the addition of printing the SpreadsheetCell example.
