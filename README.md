@@ -58,6 +58,10 @@ Basic matching based off of 6.2. value_in_cents as a method Coin rather than a f
 
 Very Basic example of how modules are structured and ```use```d.
 
+## panic
+
+Incredibly simple example of how panic! works in rust - and why indexing should probably be done via .get().
+
 ## pig_latin
 
 Implementation of code to take in a string, and convert each word to pig-latin, keeping whitespace intact.
@@ -69,6 +73,10 @@ As seen in the book - basic struct and method use/printing.
 ## restaurant
 
 As seen in the book - basic organization of modules.
+
+## result
+
+As seen in the book - introductory error handling, and the ```?``` operator.
 
 ## strings
 
