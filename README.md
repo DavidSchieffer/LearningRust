@@ -26,6 +26,10 @@ Implementation of a function that gives the fibonacci number corresponding to th
 
 Essentially as seen in the book.
 
+## generics
+
+Essentially as seen in the book - generics as used for defining types/structs, and as parameters.
+
 ## guessing_game
 
 As seen in the book, with the addition of consts to determine bounds of the guessing game, as well as utilizing the ```clamp``` function to determine if the guess is valid.
@@ -45,6 +49,10 @@ As seen in the book - with the addition of a .gitignore to ignore the generated 
 ## iflet
 
 Same idea as in the book - renamed to not be a duplicate of match_control.
+
+## lifetimes
+
+Essentially as seen in the book. 
 
 ## lyrics
 
@@ -89,6 +97,10 @@ As seen in the book - basic syntax of a struct.
 ## temperature
 
 Implementation of code to convert from fahrenheit to celsius, and from celsius to fahrenheit.
+
+## traits
+
+Essentialy as seen in the book - missing an example using trait bounds to conditionally implement methods. This just expanded on previous ideas in a clear way.
 
 ## variables
 
