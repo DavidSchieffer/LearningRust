@@ -1,0 +1,6 @@
+cargo test -- --task-threads=XXX
+cargo test -- --show-output
+cargo test [NAME OF TEST FUNCTION]
+cargo test [SUBSTRING OF FUNCTIONS NAME]
+cargo test -- --ignored
+cargo test -- --include-ignored

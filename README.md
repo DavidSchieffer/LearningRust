@@ -2,6 +2,10 @@
 
 My progress as I work through *The Rust Programming Language* book.
 
+## adder
+
+The examples of how to write tests as shown in 11.1.
+
 ## averages
 
 Collects a list of integers from the user, and prints back the median and mode values. 
@@ -50,6 +54,10 @@ As seen in the book - with the addition of a .gitignore to ignore the generated 
 
 Same idea as in the book - renamed to not be a duplicate of match_control.
 
+## integration_test
+
+As shown in the book, how to run integration tests - and their difference from unit tests.
+
 ## lifetimes
 
 Essentially as seen in the book. 
@@ -85,6 +93,10 @@ As seen in the book - basic organization of modules.
 ## result
 
 As seen in the book - introductory error handling, and the ```?``` operator.
+
+## run_test
+
+Explored use of cmd line arguments in controlling how tests are run, as based on 11.2.
 
 ## strings
 
