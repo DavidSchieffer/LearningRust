@@ -70,6 +70,10 @@ Implementation of code to print out "The 12 Days of Christmas" lyrics. Utilizes 
 
 Basic matching based off of 6.2. value_in_cents as a method Coin rather than a function.
 
+## minigrep
+
+Command line utility as implemented in chapter 12. Included functionality for command line argument case-insensitivity, or environment variable.
+
 ## modules
 
 Very Basic example of how modules are structured and ```use```d.
