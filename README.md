@@ -26,6 +26,10 @@ Implementation of a basic CLI to add people to departments in a company, and to 
 
 Basic enums based off of 6.1.
 
+## example_workspace
+
+An example of how a workspace functions, as implemented according to 14.3.
+
 ## fibonacci
 
 Implementation of a function that gives the fibonacci number corresponding to the provided index. Implemented simply with recursion.
