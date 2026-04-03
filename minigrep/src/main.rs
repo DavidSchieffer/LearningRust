@@ -7,9 +7,7 @@ use minigrep::{search, search_case_insensitive};
 
 fn main() {
     // arg[0] is the path to the executable
-    let args: Vec<String> = env::args().collect();
-
-    let config = Config::build(&args).unwrap_or_else(|err| {
+    let config = Config::build(env::args()).unwrap_or_else(|err| {
         eprintln!("Problem parsing arguments: {err}");
         process::exit(1);
     });
@@ -27,17 +25,20 @@ struct Config {
 }
 
 impl Config {
-    fn build(args: &[String]) -> Result<Config, &'static str> {
-        if args.len() < 3 {
-            return Err("Not enough arguments");
-        }
-        let query = args[1].clone();
-        let file_path = args[2].clone();
+    fn build(mut args: impl Iterator<Item = String>) -> Result<Config, &'static str> {
+        args.next();
 
-        let ignore_case: bool = if args.len() >= 5 && args[3].to_lowercase() == "-i" {
-            args[4].to_lowercase() == "1"
-        } else {
-            env::var("IGNORE_CASE").is_ok()
+        let query = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Didn't get a query string"),
+        };
+        let file_path = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Didn't get a file path"),
+        };
+        let ignore_case = match args.next() {
+            Some(arg) => arg.to_lowercase() == "-i",
+            None => env::var("IGNORE_CASE").is_ok(),
         };
 
         Ok(Config { query, file_path , ignore_case})

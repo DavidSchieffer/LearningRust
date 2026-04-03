@@ -14,6 +14,10 @@ Collects a list of integers from the user, and prints back the median and mode v
 
 Essentially as seen in the book, though I do have all three examples in one main.rs file.
 
+## closures
+
+As following the examples in the book 13.1.
+
 ## company
 
 Implementation of a basic CLI to add people to departments in a company, and to view the corresponding org-chart.
@@ -58,6 +62,10 @@ Same idea as in the book - renamed to not be a duplicate of match_control.
 
 As shown in the book, how to run integration tests - and their difference from unit tests.
 
+## iterators
+
+As shown in the book, basic usage of iterators.
+
 ## lifetimes
 
 Essentially as seen in the book. 
@@ -73,6 +81,7 @@ Basic matching based off of 6.2. value_in_cents as a method Coin rather than a f
 ## minigrep
 
 Command line utility as implemented in chapter 12. Included functionality for command line argument case-insensitivity, or environment variable.
+Refactored to a more idiomatic method - utilizing iterators more extensively for lazy searching, as specified in chapter 13. 
 
 ## modules
 
