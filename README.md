@@ -10,6 +10,10 @@ The examples of how to write tests as shown in 11.1.
 
 Collects a list of integers from the user, and prints back the median and mode values. 
 
+## box_ptr
+
+Essentially as seen in the book, examples of pointers, strong and weak references, as in ch 15.
+
 ## branches
 
 Essentially as seen in the book, though I do have all three examples in one main.rs file.
