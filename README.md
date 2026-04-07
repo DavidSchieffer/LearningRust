@@ -26,6 +26,10 @@ As following the examples in the book 13.1.
 
 Implementation of a basic CLI to add people to departments in a company, and to view the corresponding org-chart.
 
+## concurrency
+
+Essentially as seen in the book, basic implementation of multithreading, joining threads, message passing, and shared data via mutexes. 
+
 ## enums
 
 Basic enums based off of 6.1.
