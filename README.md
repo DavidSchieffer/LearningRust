@@ -6,6 +6,10 @@ My progress as I work through *The Rust Programming Language* book.
 
 The examples of how to write tests as shown in 11.1.
 
+## asynchronous
+
+Essentially as seen in the book, collated examples of how asynchronous futures work, as in ch 17.
+
 ## averages
 
 Collects a list of integers from the user, and prints back the median and mode values. 
@@ -57,6 +61,10 @@ As seen in the book, with the addition of consts to determine bounds of the gues
 ## hash_maps
 
 As seen in the book.
+
+## hello_async
+
+As seen in the book at 17.1.
 
 ## hello_cargo
 
