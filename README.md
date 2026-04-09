@@ -14,6 +14,10 @@ Essentially as seen in the book, collated examples of how asynchronous futures w
 
 Collects a list of integers from the user, and prints back the median and mode values. 
 
+## blog
+
+implemented as defined in the book ch 18.3 - bereft of additional features.
+
 ## box_ptr
 
 Essentially as seen in the book, examples of pointers, strong and weak references, as in ch 15.
@@ -57,6 +61,10 @@ Essentially as seen in the book - generics as used for defining types/structs, a
 ## guessing_game
 
 As seen in the book, with the addition of consts to determine bounds of the guessing game, as well as utilizing the ```clamp``` function to determine if the guess is valid.
+
+## gui
+
+as seen in the book, in 18.2.
 
 ## hash_maps
 
