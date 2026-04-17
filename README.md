@@ -119,6 +119,10 @@ Refactored to a more idiomatic method - utilizing iterators more extensively for
 
 Very Basic example of how modules are structured and ```use```d.
 
+## mt_server
+
+As shown in the book. TOOD: attempt project enhancements
+
 ## panic
 
 Incredibly simple example of how panic! works in rust - and why indexing should probably be done via .get().
